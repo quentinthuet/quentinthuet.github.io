@@ -5053,7 +5053,7 @@ Created using IcoMoon - icomoon.io
   transform-origin: 100% 0; }
 
 .gallery figure.cc-effect .h4 {
-  margin-top: 25%;
+  margin-top: 15%;
   transition: transform 0.35s;
   opacity: 0; }
   @media (max-width: 480px) {
@@ -5302,3 +5302,12 @@ a.credit {
   font-size: 1.5em;
   margin-bottom: 1em;
 }
+
+.cc-porfolio-image {
+  font-size: 2vw;
+}
+
+@media (min-width: 768px){
+.cc-porfolio-image {
+  font-size: 1vw;
+}}
