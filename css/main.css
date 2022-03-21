@@ -5311,3 +5311,7 @@ a.credit {
 .cc-porfolio-image {
   font-size: 1vw;
 }}
+
+ul {
+  padding-inline-start: 20px;
+}
