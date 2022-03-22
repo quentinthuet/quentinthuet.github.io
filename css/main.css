@@ -5322,3 +5322,18 @@ ul {
   margin-right: auto;
   width: 20em;
 }
+
+.navbar .navbar-brand {
+  padding-left: 2em;
+}
+
+@media (min-width: 768px){}
+.cc-porfolio-image {
+    font-size: 0.8vw;
+}}
+
+@media (min-width: 992px){
+.cc-porfolio-image {
+    font-size: 1vw;
+}}
+
