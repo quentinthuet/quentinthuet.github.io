@@ -5327,7 +5327,7 @@ ul {
   padding-left: 2em;
 }
 
-@media (min-width: 768px){}
+@media (min-width: 768px){
 .cc-porfolio-image {
     font-size: 0.8vw;
 }}
@@ -5336,4 +5336,3 @@ ul {
 .cc-porfolio-image {
     font-size: 1vw;
 }}
-
