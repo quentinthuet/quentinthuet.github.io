@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" sizes="10x16" href="images/logodef4.png">
     <title>Quentin Thuet</title>
+    <link href="css/switch.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
@@ -25,16 +26,27 @@
       <div class="profile-page sidebar-collapse">
         <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
           <div class="container">
+            <form class="toggle">
+
+                <input type="radio" id="choice1" name="choice" value="fr">
+                <label for="choice1">EN</label>
+
+                <input type="radio" id="choice2" name="choice" value="en">
+                <label for="choice2">FR</label>
+
+                <div id="flap"><span class="content"></span></div>
+
+            </form>
             <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip">Quentin Thuet</a>
               <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
             </div>
             <div class="collapse navbar-collapse justify-content-end" id="navigation">
               <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">A propos</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Comp&eacute;tences</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Engagements et projets</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Exp&eacute;riences professionnelles</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#education">Formation</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about"><span lang="fr">A propos</span><span lang="en">About </span></a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill"><span lang="fr">Comp&eacute;tences</span><span lang="en">Skills</span></a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio"><span lang="fr">Engagements et projets</span><span lang="en">Commitments</span></a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience"><span lang="fr">Exp&eacute;riences professionnelles</span><span lang="en">Experience</span></a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#education"><span lang="fr">Formation</span><span lang="en">Education</span></a></li>
               </ul>
             </div>
           </div>
@@ -51,12 +63,12 @@
         <div class="content-center">
           <div class="cc-profile-image"><a href="#"><img src="images/oim.jpg" alt="Image"/></a></div>
           <div class="h2 title">Quentin Thuet</div>
-          <p class="category text-white">Apprenti ing&eacute;nieur en mod&eacute;lisation math&eacute;matique et intelligence artificielle</p><a class="btn btn-primary" href="mailto:quentin.thuet@gmail.com" target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Me contacter</a><a class="btn btn-primary" href="https://quentinthuet.github.io/docs/CV_Quentin_Thuet.pdf" target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">T&eacute;l&eacute;charger mon CV</a>
+          <p class="category text-white"><span lang="fr">Apprenti ing&eacute;nieur en mod&eacute;lisation math&eacute;matique et intelligence artificielle</span><span lang="en">Mathematical modelling and Artificial Intelligence engineering apprentice</span></p><a class="btn btn-primary" href="mailto:quentin.thuet@gmail.com" target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor"><span lang="fr">Me contacter</span><span lang="en">Contact me</span></a><a class="btn btn-primary" href="https://quentinthuet.github.io/docs/CV_Quentin_Thuet.pdf" target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor"><span lang="fr">T&eacute;l&eacute;charger mon CV</span><span lang="en">Download my resume</span></a>
         </div>
       </div>
       <div class="section">
         <div class="container">
-          <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/quentinthuet/" target="_blank" rel="tooltip" title="Se connecter avec moi sur Linkedin"><i class="fa fa-linkedin"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/quentinthuet/" target="_blank" rel="tooltip" title="Consulter mon profil Github"><i class="fa fa-github"></i></a></div>
+          <div class="button-container"><a lang="fr" class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/quentinthuet/" target="_blank" rel="tooltip" title="Se connecter avec moi sur Linkedin"><i class="fa fa-linkedin"></i><a lang="en" class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/quentinthuet/" target="_blank" rel="tooltip" title="Connect with me on Linkedin"><i class="fa fa-linkedin"></i></a><a lang="fr" class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/quentinthuet/" target="_blank" rel="tooltip" title="Consulter mon profil Github"><i class="fa fa-github"></i><a lang="en" class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/quentinthuet/" target="_blank" rel="tooltip" title="Check my Github profile"><i class="fa fa-github"></i></a></div>
         </div>
       </div>
     </div>
@@ -69,29 +81,32 @@
         <div class="col-lg-6 col-md-12">
           <div class="card-body">
             <div class="h4 mt-0 title">Hello !</div>
-            <p>Je m'appelle Quentin Thuet, je suis en derni&egrave;re ann&eacute;e d'&eacute;cole d'ing&eacute;nieur en alternance au CNES &agrave; Toulouse.</p>
-            <p>J'&eacute;tudie au sein de la formation ModIA, un double-diplome INSA Toulouse - ENSEEIHT sur le th&egrave;me de la mod&eacute;lisation math&eacute;matique et de l'intelligence artificielle.</p>
-            <p>D&eacute;couvrez en plus sur moi et mes projets sur ce site !</p>
+            <p lang="fr">Je m'appelle Quentin Thuet, je suis en derni&egrave;re ann&eacute;e d'&eacute;cole d'ing&eacute;nieur en alternance au CNES &agrave; Toulouse.</p>
+            <p lang="en">My name is Quentin Thuet, I am currently in my last year of engineering school and apprentice at CNES (French space agency) in Toulouse, France.</p>
+            <p lang="fr">J'&eacute;tudie au sein de la formation ModIA, un double-diplome INSA Toulouse - ENSEEIHT sur le th&egrave;me de la mod&eacute;lisation math&eacute;matique et de l'intelligence artificielle.</p>
+            <p lang="en">I am studying Mathematical modelling and Artificial Intelligence through the ModIA cursus, a double engineering diploma from ENSEEIHT and INSA Toulouse.</p>
+            <p lang="fr">D&eacute;couvrez en plus sur moi et mes projets sur ce site !</p>
+            <p lang="en">Find out more about me and my projects on this website.</p>
           </div>
         </div>
         <div class="col-lg-6 col-md-12">
           <div class="card-body">
-            <div class="h4 mt-0 title">Informations personnelles</div>
+            <div class="h4 mt-0 title"><span lang="fr">Informations personnelles</span><span lang="en">About</span></div>
             <div class="row">
-              <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
+              <div class="col-sm-4"><strong class="text-uppercase"><span lang="fr">Age :</span><span lang="en">Age:</span></strong></div>
               <div class="col-sm-8">23</div>
             </div>
             <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Localisation:</strong></div>
+              <div class="col-sm-4"><strong class="text-uppercase"><span lang="fr">Localisation :</span><span lang="en">Localisation:</span></span></strong></div>
               <div class="col-sm-8">Toulouse, France</div>
             </div>
             <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
+              <div class="col-sm-4"><strong class="text-uppercase"><span lang="fr">Email :</span><span lang="en">Email:</span></strong></div>
               <div class="col-sm-8">quentin.thuet@gmail.com</div>
             </div>
             <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Langue:</strong></div>
-              <div class="col-sm-8"><ul><li>Fran&ccedil;ais</li><li>Anglais</li><li>Allemand</li></div>
+              <div class="col-sm-4"><strong class="text-uppercase"><span lang="fr">Langue :</span><span lang="en">Language:</span></strong></div>
+              <div class="col-sm-8"><ul><li lang="fr">Fran&ccedil;ais</li><li lang="en">French</li><li lang="fr">Anglais</li><li lang="en">English</li><li lang="fr">Allemand</li><li lang="en">German</li></div>
             </div>
           </div>
         </div>
@@ -101,8 +116,8 @@
 </div>
 <div class="section" id="skill">
   <div class="container">
-    <div class="h4 text-center mb-4 title">Comp&eacute;tences</div>
-    <div class="h6 text-center mb-6 title">Programmation</div>
+    <div class="h4 text-center mb-4 title"><span lang="fr">Comp&eacute;tences</span><span lang="en">Skills</span></div>
+    <div class="h6 text-center mb-6 title"><span lang="fr">Programmation</span><span lang="en">Programming</span></div>
     <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div class="card-body">
         <div class="row">
@@ -155,19 +170,19 @@
         </div>
       </div>
     </div>
-    <div class="h6 text-center mb-6 title">Langues</div>
+    <div class="h6 text-center mb-6 title"><span lang="fr">Langues</span><span lang="en">Languages</span></div>
     <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div class="card-body">
         <div class="row">
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Fran&ccedil;ais</span>
+            <div class="progress-container progress-primary"><span class="progress-badge"><span lang="fr">Fran&ccedil;ais</span><span lang="en">French</span></span>
               <div class="progress">
                 <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div><span class="progress-value"></span>
               </div>
             </div>
           </div>
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Anglais <span class="progress-badge-comp">(Cambridge Linguaskill Business - C1 or above)</span>
+            <div class="progress-container progress-primary"><span class="progress-badge"><span lang="fr">Anglais</span><span lang="en">English</span> <span class="progress-badge-comp">(Cambridge Linguaskill Business - C1 or above)</span>
               <div class="progress">
                 <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div><span class="progress-value"></span>
               </div>
@@ -176,14 +191,14 @@
         </div>
         <div class="row">
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Allemand</span>
+            <div class="progress-container progress-primary"><span class="progress-badge"><span lang="fr">Allemand</span><span lang="en">German</span></span>
               <div class="progress">
                 <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"></div><span class="progress-value"></span>
               </div>
             </div>
           </div>
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Italien | Chinois</span>
+            <div class="progress-container progress-primary"><span class="progress-badge"><span lang="fr">Italien | Chinois</span><span lang="en">Italian | Chinese</span></span>
               <div class="progress">
                 <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"></div><span class="progress-value"></span>
               </div>
@@ -192,18 +207,18 @@
         </div>
       </div>
     </div>
-    <div class="h6 text-center mb-6 title">Autres comp&eacute;tences</div>
+    <div class="h6 text-center mb-6 title"><span lang="fr">Autres comp&eacute;tences</span><span lang="en">Other skills</span></div>
     <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div class="card-body">
       <div class="row">
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Permis B</span>
+            <div class="progress-container progress-primary"><span class="progress-badge"><span lang="fr">Permis B</span><span lang="en">Driving license</span></span>
             </div>
           </div>
         </div>
       <div class="row">
           <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">PSC1 <span class="progress-badge-comp">(Formation aux premiers secours)</span></span>
+            <div class="progress-container progress-primary"><span class="progress-badge">PSC1 <span class="progress-badge-comp"><span lang="fr">(Formation aux premiers secours)</span><span lang="en">(Certificate of Training in First Aid)</span></span>
             </div>
           </div>
         </div>
@@ -215,7 +230,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 ml-auto mr-auto">
-        <div class="h4 text-center mb-4 title">Engagements et projets</div>
+        <div class="h4 text-center mb-4 title"><span lang="fr">Engagements et projets</span><span lang="en">Commitments</span></div>
       </div>
     </div>
     <div class="tab-content gallery mt-5">
@@ -227,58 +242,66 @@
                   <figure class="cc-effect"><img src="images/pulsar_coiffe_logo.png" alt="Image"/>
                     <figcaption>
                       <div class="h4">PULSAR</div>
-                      <p>PULSAR est le premier projet de fuse&eacute; exp&eacute;rimentale de l'ASTRE (voir ci-dessous). Je suis en charge de ce projet qui regroupe une vingtaine d'&eacute;tudiants depuis septembre 2020. La fus&eacute;e embarquera un gyroscope &agrave; fibre optique (qui constitue l'exp&eacute;rience principale &agrave; bord) et des instruments de t&eacute;l&eacute;mesure plus classiques. Le lancement est pr&eacute;vu pour juillet 2022.</p>
+                      <p lang="fr">PULSAR est le premier projet de fuse&eacute; exp&eacute;rimentale de l'ASTRE (voir ci-dessous). Je suis en charge de ce projet qui regroupe une vingtaine d'&eacute;tudiants depuis septembre 2020. La fus&eacute;e embarquera un gyroscope &agrave; fibre optique (qui constitue l'exp&eacute;rience principale &agrave; bord) et des instruments de t&eacute;l&eacute;mesure plus classiques. Le lancement est pr&eacute;vu pour juillet 2022.</p>
+                      <p lang="en">PULSAR is the first experimental rocket project by the ASTRE (see below). I am leading a team of 20 students working on this project since September 2020. The rocket will carry an optical fiber gyroscope (main onboard experiment) and telemetry instruments. Launch is scheduled in July 2022</p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://www.astre-toulouse.com/" target="_blank">
                   <figure class="cc-effect"><img src="images/astre.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">ASTRE</div>
-                      <p>L'ASTRE (Association Spatiale Toulousaine de Recherche Etudiante) est une association qui permet &agrave; des &eacute;tudiants de 4 &eacute;coles et universit&eacute;s toulousaines de prendre part &agrave; des projets spatiaux ambitieux. J'ai  &eacute;t&eacute; &eacute;lu vice-pr&eacute;sident de l'ASTRE de mai 2020 &agrave; mai 2021.</p>
+                      <p lang="fr">L'ASTRE (Association Spatiale Toulousaine de Recherche Etudiante) est une association qui permet &agrave; des &eacute;tudiants de 4 &eacute;coles et universit&eacute;s toulousaines de prendre part &agrave; des projets spatiaux ambitieux. J'ai  &eacute;t&eacute; &eacute;lu vice-pr&eacute;sident de l'ASTRE de mai 2020 &agrave; mai 2021.</p>
+                      <p lang="en">ASTRE ("Association Spatiale Toulousaine de Recherche Etudiante" or Toulouse Space Association for Student Research) is an association allowing students from 4 schools and universities to take part to ambitious space projects. I have been elected Vice-President of ASTRE from May 2020 to May 2021.</p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://www.tolosat.fr/" target="_blank">
                   <figure class="cc-effect"><img src="images/tolosat.png" alt="Image"/>
                     <figcaption>
                       <div class="h4">TOLOSAT</div>
-                      <p>TOLOSAT est un projet de CubeSat 3U (petit satellite de 30cmx10cmx10cm) de l'ASTRE et du Club Cubesat de Supaero. Plusieurs exp&eacute;riences seront embarqu&eacute;es. Le lancement est pr&eacute; pour 2024 au plus t&ocirc;t. J'ai travaill&eacute; au sein de l'&eacute;quipe AOCS (contr&ocirc;le d'attitude) durant l'ann&eacute;e scolaire 2019-2020.</p>
+                      <p lang="fr">TOLOSAT est un projet de CubeSat 3U (petit satellite de 30cmx10cmx10cm) de l'ASTRE et du Club CubeSat Supaero. Plusieurs exp&eacute;riences seront embarqu&eacute;es. Le lancement est pr&eacute; pour 2024 au plus t&ocirc;t. J'ai travaill&eacute; au sein de l'&eacute;quipe AOCS (contr&ocirc;le d'attitude) durant l'ann&eacute;e scolaire 2019-2020.</p>
+                      <p lang="en">TOLOSAT is a 3U CubeSat (small satellite, 30cmx10cmx10cm) project by the ASTRE and Club CubeSat Supaero. Many experiments will be on board. Launch is scheduled in 2024. I worked in the AOCS team (Attitude and Orbit Control System) during school year 2019-2020.</p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="http://tedxinpenseeiht.tvn7.fr/" target="_blank">
                   <figure class="cc-effect"><img src="images/tedx.jpg" alt="Image"/>
                     <figcaption>
                       <div class="h4">TEDxINPENSEEIHT</div>
-                      <p>Chaque ann&eacute;e, un &eacute;v&eacute;nement TEDx est organis&eacute; &agrave; l'ENSEEIHT. J'ai particip&eacute; &agrave; l'organisation du TEDxINPENSEEIHT 2021 qui s'est tenu en distanciel. J'&eacute;tais en charge de trouver et de contacter des intervenants inspirants en lien avec le th&ecirc;me de cette ann&eacute;e : "Changer les paradigmes".</p>
+                      <p lang="fr">Chaque ann&eacute;e, un &eacute;v&eacute;nement TEDx est organis&eacute; &agrave; l'ENSEEIHT. J'ai particip&eacute; &agrave; l'organisation du TEDxINPENSEEIHT 2021 qui s'est tenu en distanciel. J'&eacute;tais en charge de trouver et de contacter des intervenants inspirants en lien avec le th&ecirc;me de cette ann&eacute;e : "Changer les paradigmes".</p>
+                      <p lang="en">A TEDx event takes place every year at ENSEEIHT. I took part to the TEDxINPENSEEIHT 2021 organisation. The event took place remotely. I was in charge of finding and contacting inspiring speakers. The theme of the event was : "Paradigm shift".</p>
                     </figcaption>
                   </figure></a></div>
             </div>
             <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="http://assets-plus.eu/challenge/" target="_blank">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://github.com/quentinthuet/EDC_challenge" target="_blank">
                   <figure class="cc-effect"><img src="images/edc_large.png" alt="Image"/>
                     <figcaption>
                       <div class="h4">European Defence Challenge</div>
-                      <p>L'EDC est organis&eacute; par le consortium ASSETS+. Ce challenge est ouvert &agrave; tout &eacute;tudiant europ&eacute;en. L'objectif est de proposer une innovation technologique en r&eacute;pondant &agrave; la question suivante : <em>Dans quelle mesure des &eacute;l&eacute;ments non humains peuvent int&eacute;ragir avec des humains dans le cadre d'op&eacute;rations de d&eacute;fense ?</em>. Je participe en bin&ocirc;me et nous sommes actuellement en finale. Notre proposition est disponible sur ma page GitHub.</p>
+                      <p lang="fr">L'EDC est organis&eacute; par le consortium ASSETS+. Ce challenge est ouvert &agrave; tout &eacute;tudiant europ&eacute;en. L'objectif est de proposer une innovation technologique en r&eacute;pondant &agrave; la question suivante : <em>Dans quelle mesure des &eacute;l&eacute;ments non humains peuvent int&eacute;ragir avec des humains dans le cadre d'op&eacute;rations de d&eacute;fense ?</em>. Je participe en bin&ocirc;me et nous sommes actuellement en finale. Vous trouverez la proposition que nous avons soumis lors de la première étape du challenge en cliquant sur cette vignette. Plus d'informations sur le challenge : assets-plus.eu/challenge.</p>
+                      <p lang="en">The European Defence Challenge has been created by the ASSETS+ consortium. This challenge is to every european student. The objective is to propose a techological innovation while answering the following question : <em>Remote everything? To what extent can unmanned assets interact with humans in the field for defence operations?</em>. I take part to this challenge in duo and we are currently in finale. Find our proposal for the first step of the challenge above by clicking here. More information about the challenge : assets-plus.eu/challenge.</p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://7fault.itch.io/" target="_blank">
                   <figure class="cc-effect"><img src="images/game_dev.png" alt="Image"/>
                     <figcaption>
-                      <div class="h4">D&eacute;veloppement de jeux vid&eacute;os</div>
-                      <p>Ayant toujours &eacute;t&eacute; interess&eacute; par les jeux vid&eacute;os et leur d&eacute;veloppement, j'ai pris part &agrave; des formations et des challenges de d&eacute;veloppement organis&eacute;s par 7Fault, le club de d&eacute;veloppement de jeux vid&eacute;os de l'ENSEEIHT. Je m&eagrave;ne &eacute;galement quelques d&eacute;veloppements de mon c&ocirc;t&eacute;.</p>
+                      <div class="h4"><span lang="fr">D&eacute;veloppement de jeux vid&eacute;os</span><span lang="en">Game development</span></div>
+                      <p lang="fr">Ayant toujours &eacute;t&eacute; interess&eacute; par les jeux vid&eacute;os et leur d&eacute;veloppement, j'ai pris part &agrave; des formations et des challenges de d&eacute;veloppement organis&eacute;s par 7Fault, le club de d&eacute;veloppement de jeux vid&eacute;os de l'ENSEEIHT. Je m&eagrave;ne &eacute;galement quelques d&eacute;veloppements de mon c&ocirc;t&eacute;.</p>
+                      <p lang="en">I already have been interested in video games and game development. I took part to trainings and challenges organised by 7Fault, the game development club of ENSEEIHT. I also worked on some little projects of my own.</p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://wavegame.wavestone.events/" target="_blank">
                   <figure class="cc-effect"><img src="images/wavegame.jpg" alt="Image"/>
                     <figcaption>
-                      <div class="h4">Cybers&eacute;curit&eacute;</div>
-                      <p>La cybers&eacute;curit&eacute; &eacute;tant aujourd'hui un enjeu capital, je me suis form&eacute; en suivant le MOOC SecNumAcad&eacute;mie de l'ANSSI. J'ai &eacute;galement pris part au challenge WaveGame organis&eacute; par Wavestone. Notre &eacute;quipe &agrave; termin&eacute; dans le top 20, un tr&egrave;s bon classement &eacute;tant donn&eacute;e notre faible exp&eacute;rience compar&eacute; &agrave; nos concurrents.</p>
+                      <div class="h4"><span lang="fr">Cybers&eacute;curit&eacute;</span><span lang="en">Cybersecurity</span></div>
+                      <p lang="fr">La cybers&eacute;curit&eacute; &eacute;tant aujourd'hui un enjeu capital, je me suis form&eacute; en suivant le MOOC SecNumAcad&eacute;mie de l'ANSSI. J'ai &eacute;galement pris part au challenge WaveGame organis&eacute; par Wavestone. Notre &eacute;quipe &agrave; termin&eacute; dans le top 20, un tr&egrave;s bon classement &eacute;tant donn&eacute;e notre faible exp&eacute;rience compar&eacute; &agrave; nos concurrents.</p>
+                      <p lang="en">Cybersecurity being today a major issue, I followed an online course organized by the french cybersecurity agency (MOOC SecNumAcad&eacute;mie by ANSSI). I also took part to the WaveGame challenge, organized by Wavestone. Our team finished in the top 20, a good rank giving our experience compared to the other teams.</p>
                     </figcaption>
                   </figure></a></div>
               <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="https://github.com/quentinthuet" target="_blank">
                   <figure class="cc-effect"><img src="images/github.jpeg" alt="Image"/>
                     <figcaption>
-                      <div class="h4">Projets scolaires et plus</div>
-                      <p>Retrouvez les projets que j'ai r&eacute;aliser durant mes &eacute;tudes ainsi que d'autres projets que je n'ai pas mentionn&eacute; ici sur ma page GitHub</p>
+                      <div class="h4"><span lang="fr">Projets scolaires et plus</span><span lang="en">School projects and more</span></div>
+                      <p lang="fr">Retrouvez les projets que j'ai r&eacute;aliser durant mes &eacute;tudes ainsi que d'autres projets que je n'ai pas mentionn&eacute; ici sur ma page GitHub</p>
+                      <p lang="en">Find out more about my school projects and other projects I didn't mentionned here on my GitHub profile</p>
                     </figcaption>
                   </figure></a></div>
             </div>
@@ -290,19 +313,20 @@
 </div>
 <div class="section" id="experience">
   <div class="container cc-experience">
-    <div class="h4 text-center mb-4 title">Exp&eacute;riences professionnelles</div>
+    <div class="h4 text-center mb-4 title"><span lang="fr">Exp&eacute;riences professionnelles</span><span lang="en">Experience</span></div>
     <div class="card">
       <div class="row">
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-experience-header">
-            <p>Sept. 2020 - F&eacute;v. 2023</p>
+            <p><span lang="fr">Sept. 2020 - F&eacute;v. 2023</span><span lang="en">Sept. 2020 - Feb. 2023</span></p>
             <div class="h5">CNES</div>
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
-            <div class="h5">Apprenti math&eacute;matiques appliqu&eacute;es et informatique</div>
-            <p><em>Service Orbitographie, Sous-direction Dynamique de Vol, Direction Technique et Num&eacute;rique</em><br>Etude sur l'utilisation de r&eacute;seaux de neurones pour la navigation bas&eacute;e vision autour d'un ast&eacute;ro&iuml;de.<br>D&eacute;veloppements python d'une librairie de manipulation des &eacute;quations normales.<br>Refonte de la librairie python du service.<br>Etude sur la qualit&eacute; de bulletins GPS.<br>Toutes ces activit&eacute;s m'ont amen&eacute; &agrave; prendre part &agrave; de nombreuses r&eacute;unions et &agrave; pr&eacute;senter r&eacute;guli&egrave;rement mon travail.</p>
+            <div class="h5"><span lang="fr">Apprenti math&eacute;matiques appliqu&eacute;es et informatique</span><span lang="en">Applied mathematics and Computer science apprentice</span></div>
+            <p lang="fr"><em>Service Orbitographie, Sous-direction Dynamique de Vol, Direction Technique et Num&eacute;rique</em><br>Etude sur l'utilisation de r&eacute;seaux de neurones pour la navigation bas&eacute;e vision autour d'un ast&eacute;ro&iuml;de.<br>D&eacute;veloppements python d'une librairie de manipulation des &eacute;quations normales.<br>Refonte de la librairie python du service.<br>Etude sur la qualit&eacute; de bulletins GPS.<br>Toutes ces activit&eacute;s m'ont amen&eacute; &agrave; prendre part &agrave; de nombreuses r&eacute;unions et &agrave; pr&eacute;senter r&eacute;guli&egrave;rement mon travail.</p>
+            <p lang="en"><em>Orbitography Team, Flight dynamics Department</em><br>Study on the use of neural network for computer-vision based navigation around an asteroid<br>Development of a python library for normal equations manipulation<br>Rework of our team's python library<br>Study on the quality of GPS ephemerides<br>These activities made me take part to many meetings and presentations.</p>
           </div>
         </div>
       </div>
@@ -312,19 +336,19 @@
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-experience-header">
             <p>2016 - 2019</p>
-            <div class="h5">Emplois saisonniers</div>
+            <div class="h5"><span lang="fr">Emplois saisonniers</span><span lang="en">Summer jobs</span></div>
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
             <div class="h6">Adam Boissons</div>
-            <p>Livraison de boissons aux particuliers et aux professionnels, manutention.</p>
+            <p lang="fr">Livraison de boissons aux particuliers et aux professionnels, manutention.</p><p lang="en">Beverages delivery to private and professional.</p>
             <div class="h6">CIC Est</div>
-            <p>Accueil des clients, r&eacute;alisation des op&eacute;rations bancaires, gestion de l'agenda des conseillers.</p>
+            <p lang="fr">Accueil des clients, r&eacute;alisation des op&eacute;rations bancaires, gestion de l'agenda des conseillers.</p><p lang="en">Customers reception, banking operations, schedule management.</p>
             <div class="h6">E. Leclerc</div>
-            <p>Remplissage des rayons, conseil et assistance aux clients.</p>
+            <p lang="fr">Remplissage des rayons, conseil et assistance aux clients.</p><p lang="en">Shelf filling, customer service.</p>
             <div class="h6">Bell Food</div>
-            <p>Conditionnement, contr&ocirc;le qualit&eacute;.</p>
+            <p lang="fr">Conditionnement, contr&ocirc;le qualit&eacute;.</p><p lang="en">Packaging, quality control</p>
           </div>
         </div>
       </div>
@@ -334,13 +358,13 @@
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-experience-header">
             <p>2016 - 2019</p>
-            <div class="h5">Cours &agrave; domicile</div>
+            <div class="h5"><span lang="fr">Cours &agrave; domicile</span><span lang="en">Home courses</span></div>
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
-            <div class="h5">Cours de math&eacute;matiques &agrave; domicile</div>
-            <p>Cours de math&eacute;matiques &agrave; des coll&eacute;giens, des lyc&eacute;ens ainsi qu'&agrave; des &eacute;tudiants de classes pr&eacute;paratoires aux &eacute;coles de commerce.</p>
+            <div class="h5"><span lang="fr">Cours de math&eacute;matiques &agrave; domicile</span><span lang="en">Mathematics home courses</span></div>
+            <p lang="fr">Cours de math&eacute;matiques &agrave; des coll&eacute;giens, des lyc&eacute;ens ainsi qu'&agrave; des &eacute;tudiants de classes pr&eacute;paratoires aux &eacute;coles de commerce.</p><p lang="en">Mathematics home courses to high school and preparatory classes students.</p>
           </div>
         </div>
       </div>
@@ -349,24 +373,28 @@
 </div>
 <div class="section" id="education">
   <div class="container cc-education">
-    <div class="h4 text-center mb-4 title">Formation</div>
+    <div class="h4 text-center mb-4 title"><span lang="fr">Formation</span><span lang="en">Education</span></div>
     <div class="card">
       <div class="row">
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-education-header">
             <p>2019 - 2023</p>
-            <div class="h5">Dipl&ocirc;me d'ing&eacute;nieur</div>
+            <div class="h5"><span lang="fr">Dipl&ocirc;me d'ing&eacute;nieur</span><span lang="en">Master's degree</span></div>
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
-            <div class="h5">Ing&eacute;nieur en Mod&eacute;lisation et Intelligence Artificielle</div>
+            <div class="h5"><span lang="fr">Ing&eacute;nieur en Mod&eacute;lisation et Intelligence Artificielle</span><span lang="en">Mathematical Modelling and Artificial Intelligence engineer</span></div>
             <p class="category">ENSEEIHT - INSA Toulouse</p>
-            <p>Double dipl&ocirc;me d'ing&eacute;nieur en alternance.<br>
+            <p lang="fr">Double dipl&ocirc;me d'ing&eacute;nieur en alternance.<br>
             Le syllabus d&eacute;taill&eacute; de la formation est disponible au bas de <a href="https://www.enseeiht.fr/fr/formation/formation-ingenieur/departement-sn/programme-sn/parcours-modia.html">cette page</a>.<br>
             <strong>3<sup>&egrave;me</sup> ann&eacute;e (en cours)</strong> : Statistique en grande dimensions et apprentissage profond, High performance Science Computing, Apprentissage sous contraintes physiques, Technologies pour l'IA, Syst&egrave;mes de confiance, Mod&eacute;lisation et &eacute;l&eacute;ments finis, Assimilation de donn&eacute;es, Plans d'exp&eacute;eriences et m&eacute;tamod&egrave;les, Dur&eacute;e de vie et fiabilit&eacute; appliqu&eacute; &agrave; l'actuariat<br>Management, Psychologie sociale et Ethique, Anglais,<br>
             <strong>2<sup>&egrave;me</sup> ann&eacute;e (15.0/20)</strong> : Calcul Scientifique, Statistiques, Optimisation, Analyse de donn&eacute;es, Traitement du signal, Infrastructure pour le Big Data et le Cloud, Programmation fonctionnelle et th&eacute;orie des graphes, Machine Learning<br>Droit, Leadership et Management, Anglais.<br>
             <strong>1<sup>&egrave;re</sup> ann&eacute;e (16.8/20)</strong> : Programmation imp&eacute;rative et objet, Calcul Scientifique, Probabilit&eacute;s et statistiques, Optimisation, Traitement du signal et t&eacute;l&eacute;communications, Architecture des ordinateurs, R&eacute;seaux<br>Leadership et Management, Anglais, Chinois.</p>
+            <p lang="en">Double diploma in engineering in apprenticeship.<br>Detailed courses schedule <a href="https://www.enseeiht.fr/fr/formation/formation-ingenieur/departement-sn/programme-sn/parcours-modia.html">here</a> (only in french).<br>
+            <strong>3<sup>rd</sup> year (in progress)</strong> : High dimension statistics and deep learning, High performance Science Computing, Machine learning under physical constraints, AI technologies, Trustable systems, Modelling and Finite elements, Data assimilation, Experiment planning and metamodels, Lifetime and reliability applied to insurance<br>Management, Social psychology and ethics, English<br>
+            <strong>2<sup>nd</sup> year (15.0 out of 20)</strong> : Scientific computing, Statistics, Optimisation, Data analysis, Signal processing, Infrastructure for Big Data and Cloud, Functionnal programming and graphs theory, Machine Learning<br>Law, Leadership and Management, English.<br>
+            <strong>1<sup>st</sup> year (16.8 out of 20)</strong> :Imperative and object oriented programming, Scientific computing, Probability and statistics, Optimisation, Signal processing and telecommunications, Computers architecture, Networks<br>Leadership and Management, English, Chinese.</p>
           </div>
         </div>
       </div>
@@ -376,14 +404,15 @@
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-education-header">
             <p>2016-2019</p>
-            <div class="h5">Licence</div>
+            <div class="h5"><span lang="fr">Licence</span><span lang="en">Bachelor's degree</span></div>
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
-            <div class="h5">Licence de Math&eacute;matiques, parcours Math&eacute;matiques Appliqu&eacute;es</div>
-            <p class="category">Universit&eacute; de Strasbourg</p>
-            <p>Parcours Math&eacute;matiques appliqu&eacute;es. Mention Tr&egrave;s bien (16.5/20), major de promotion.<br>Calcul scientifique, programmation, probabilit&eacute;s, statistiques.</p>
+            <div class="h5"><span lang="fr">Licence de Math&eacute;matiques</span><span lang="en">Degree in Mathematics</span></div>
+            <p class="category"><span lang="fr">Universit&eacute; de Strasbourg</span><span lang="en">Strasbourg University</span></p>
+            <p lang="fr">Parcours Math&eacute;matiques appliqu&eacute;es. Mention Tr&egrave;s bien (16.5/20), major de promotion.<br>Calcul scientifique, programmation, probabilit&eacute;s, statistiques.</p>
+            <p lang="en">Specialization in Applied Mathematics, Valedictorian (16.5 out of 20).<br>Scientific computing, programming, probability, statistics.</p>
           </div>
         </div>
       </div>
@@ -393,14 +422,15 @@
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-education-header">
             <p>2013-2016</p>
-            <div class="h5">Baccalaur&eacute;at</div>
+            <div class="h5"><span lang="fr">Baccalaur&eacute;at</span><span lang="en">Baccalaureate</span></div>
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
-            <div class="h5">Baccalaur&eacute;at S/SVT</div>
-            <p class="category">Lyc&eacute;e Scheurer-Kestner de Thann</p>
-            <p>Section europ&eacute;enne allemand, mention tr&egrave;s bien (17.8/20).</p>
+            <div class="h5"><span lang="fr">Baccalaur&eacute;at S/SVT</span><span lang="en">Scientific baccalaureate</span></div>
+            <p class="category"><span lang="fr">Lyc&eacute;e Scheurer-Kestner de Thann</span><span lang="en">Scheurer-Kestner High School, Thann, France</span></p>
+            <p lang="fr">Section europ&eacute;enne allemand, mention tr&egrave;s bien (17.8/20).</p>
+            <p lang="en">European section (some courses delivered in German) (17.8 out of 20).</p>
           </div>
         </div>
       </div>
@@ -411,11 +441,11 @@
     </div>
     <footer class="footer">
       <div class="button-container button-footer">
-      <a class="btn btn-primary btn-footer" href="mailto:quentin.thuet@gmail.com" target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Me contacter</a>
+      <a class="btn btn-primary btn-footer" href="mailto:quentin.thuet@gmail.com" target="_blank" data-aos="zoom-in" data-aos-anchor="data-aos-anchor"><span lang="fr">Me contacter</span><span lang="en">Contact me</span></a>
       </div>
 
       <img class="image-center" src="images/contact.png"/>
-      <div class="button-container button-footer"><a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/quentinthuet/" target="_blank" rel="tooltip" title="Se connecter avec moi sur Linkedin"><i class="fa fa-linkedin"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/quentinthuet/" target="_blank" rel="tooltip" title="Consulter mon profil Github"><i class="fa fa-github"></i></a></div>
+      <div class="button-container button-footer"><a lang = "fr" class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/quentinthuet/" target="_blank" rel="tooltip" title="Se connecter avec moi sur Linkedin"><i class="fa fa-linkedin"></i><a lang = "en" class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/quentinthuet/" target="_blank" rel="tooltip" title="Connect with me on Linkedin"><i class="fa fa-linkedin"></i></a><a lang="fr" class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/quentinthuet/" target="_blank" rel="tooltip" title="Consulter mon profil Github"><i class="fa fa-github"></i><a lang="en" class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/quentinthuet/" target="_blank" rel="tooltip" title="Check my Github profile"><i class="fa fa-github"></i></a></div>
       <div class="text-center text-muted">
         <p>&copy; Creative CV. All rights reserved.<br>Design - <a class="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
       </div>
@@ -425,6 +455,7 @@
     <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
     <script src="js/now-ui-kit.js?ver=1.1.0"></script>
     <script src="js/aos.js?ver=1.1.0"></script>
+    <script src="js/lang.js"></script>
     <script src="scripts/main.js?ver=1.1.0"></script>
   </body>
 </html>

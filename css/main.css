@@ -5303,15 +5303,6 @@ a.credit {
   margin-bottom: 1em;
 }
 
-.cc-porfolio-image {
-  font-size: 2vw;
-}
-
-@media (min-width: 768px){
-.cc-porfolio-image {
-  font-size: 1vw;
-}}
-
 ul {
   padding-inline-start: 20px;
 }
@@ -5327,6 +5318,10 @@ ul {
   padding-left: 2em;
 }
 
+.cc-porfolio-image {
+  font-size: 1.7vw;
+}
+
 @media (min-width: 768px){
 .cc-porfolio-image {
     font-size: 0.8vw;
@@ -5336,3 +5331,8 @@ ul {
 .cc-porfolio-image {
     font-size: 1vw;
 }}
+
+@media (min-width: 992px){
+.navbar .navbar-nav .nav-link:not(.btn) {
+  font-size: 0.8vw;
+}
