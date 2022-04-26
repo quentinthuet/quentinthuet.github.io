@@ -5332,7 +5332,22 @@ ul {
     font-size: 1vw;
 }}
 
+@media (min-width: 1400px){
+.cc-porfolio-image {
+    font-size: 0.8vw;
+}}
+
+@media (min-width: 1700px){
+.cc-porfolio-image {
+    font-size: 0.7vw;
+}}
+
 @media (min-width: 992px){
 .navbar .navbar-nav .nav-link:not(.btn) {
   font-size: 0.8vw;
+}
+
+@media (min-width: 1400px){
+.navbar .navbar-nav .nav-link:not(.btn) {
+  font-size: 0.6vw;
 }
