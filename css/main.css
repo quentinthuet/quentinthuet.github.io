@@ -5307,6 +5307,15 @@ ul {
   padding-inline-start: 20px;
 }
 
+
+.h7 {
+  font-style: italic;
+}
+
+.h6 {
+  margin-bottom: 0;
+}
+
 .image-center {
   display: block;
   margin-left: auto;
