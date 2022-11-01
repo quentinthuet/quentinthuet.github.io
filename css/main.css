@@ -5093,7 +5093,7 @@ Created using IcoMoon - icomoon.io
   transform: scale(1); }
 
 .gallery figure.cc-effect:hover figcaption:before {
-  background: rgba(27, 23, 23, 0.5); }
+  background: rgba(27, 23, 23, 0.9); }
 
 .gallery figure.cc-effect:hover .h4,
 .gallery figure.cc-effect:hover p,
